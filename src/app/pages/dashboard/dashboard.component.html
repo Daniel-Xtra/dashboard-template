@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col-md-4">
+    <div class="card"></div>
+  </div>
+  <div class="col-md-4">
+    <div class="card"></div>
+  </div>
+  <div class="col-md-4">
+    <div class="card"></div>
+  </div>
+</div>
+<div class="row table-section">
+  <div class="table-responsive">
+    <table class="table table-responsive table-borderless">
+      <thead>
+        <tr>
+          <!-- <th scope="col"></th> -->
+          <th scope="col">amount</th>
+          <th scope="col">reference number</th>
+          <th scope="col">reason</th>
+          <th scope="col" id="last">payment time</th>
+
+          <th scope="col" id="last">status</th>
+          <th scope="col" id="last">action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background: transparent">
+          <td colspan="7" class="text-center" style="border-bottom: none">
+            <app-loader></app-loader>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="paginate">
+    <ul class="pagination justify-content-end mb-0">
+      <li class="page-item">
+        <button class="btn pagination-btn">
+          < <span class="">Previous</span>
+        </button>
+      </li>
+      <li class="page-item active">
+        <a class="page-link">1</a>
+      </li>
+
+      <li class="page-item">
+        <button class="btn pagination-btn"><span class="">Next</span> ></button>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,199 @@
+// .container-fluid {
+//   position: relative;
+//   width: 100%;
+// }
+// .navigation {
+//   position: fixed;
+//   width: 250px;
+//   height: 100%;
+//   background: var(--blue);
+//   top: 0;
+//   left: 0;
+//   border-left: 10px solid var(--blue);
+//   transition: 0.5s;
+//   overflow: hidden;
+//   &.active {
+//     width: 70px;
+//   }
+//   ul {
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     position: absolute;
+//     padding-left: 0;
+
+//     li {
+//       position: relative;
+//       width: 100%;
+//       list-style: none;
+//       border-top-left-radius: 30px;
+//       border-bottom-left-radius: 30px;
+//       padding-left: 15px;
+
+//       &:hover,
+//       &.hovered {
+//         background: var(--white);
+
+//         a {
+//           color: var(--blue);
+
+//           &::before {
+//             content: "";
+//             position: absolute;
+//             right: 0;
+//             width: 50px;
+//             height: 50px;
+//             background-color: transparent;
+//             top: -50px;
+//             border-radius: 50%;
+//             box-shadow: 35px 35px 0 10px var(--white);
+//             pointer-events: none;
+//           }
+
+//           &::after {
+//             content: "";
+//             position: absolute;
+//             right: 0;
+//             width: 50px;
+//             height: 50px;
+//             background-color: transparent;
+//             bottom: -50px;
+//             border-radius: 50%;
+//             box-shadow: 35px -35px 0 10px var(--white);
+//             pointer-events: none;
+//           }
+//         }
+//       }
+
+//       &:nth-child(1) {
+//         margin-bottom: 40px;
+//         pointer-events: none;
+//       }
+//       a {
+//         position: relative;
+//         display: block;
+//         width: 100%;
+//         display: flex;
+//         text-decoration: none;
+//         color: var(--white);
+
+//         .icon {
+//           position: relative;
+//           display: block;
+//           min-height: 60px;
+//           height: 60px;
+//           line-height: 62px;
+//           text-align: center;
+
+//           i {
+//             font-size: 1.5rem;
+//           }
+//         }
+//         .title {
+//           position: relative;
+//           display: block;
+//           padding: 0 30px;
+//           height: 60px;
+//           line-height: 60px;
+//           text-transform: capitalize;
+//           text-align: start;
+//           white-space: nowrap;
+//         }
+//       }
+//     }
+//   }
+// }
+// .main {
+//   position: absolute;
+//   width: calc(100% - 250px);
+//   left: 250px;
+//   min-height: 100vh;
+//   background-color: var(--white);
+//   transition: 0.5s;
+//   &.active {
+//     width: calc(100% - 70px);
+//     left: 70px;
+//   }
+
+//   .topbar {
+//     width: 100%;
+//     height: 60px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 0 10px;
+//   }
+
+//   .toggle {
+//     position: relative;
+//     top: 0;
+//     width: 60px;
+//     height: 60px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     font-size: 1.5rem;
+//     cursor: pointer;
+//   }
+//   .search {
+//     position: relative;
+//     width: 400px;
+//     margin: 0 10px;
+
+//     label {
+//       position: relative;
+//       width: 100%;
+
+//       input {
+//         width: 100%;
+//         height: 40px;
+//         border-radius: 40px;
+//         padding: 5px 36px;
+//         outline: none;
+//         font-size: 18px;
+//         border: 1px solid var(--blue);
+//       }
+//       .fa {
+//         position: absolute;
+//         top: 10px;
+
+//         left: 10px;
+//         font-size: 1.2em;
+//       }
+//     }
+//   }
+//   .user {
+//     position: relative;
+//     min-width: 40px;
+//     height: 40px;
+//     border-radius: 50%;
+//     overflow: hidden;
+//     cursor: pointer;
+
+//     img {
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       width: 100%;
+//       height: 100%;
+//       object-fit: cover;
+//     }
+//   }
+// }
+
+// @media (max-width: 991px) {
+//   .navigation {
+//     left: -250px;
+//     &.active {
+//       width: 250px;
+//       left: 0;
+//     }
+//   }
+//   .main {
+//     width: 100%;
+//     left: 0;
+//     &.active {
+//       left: 250px;
+//     }
+//   }
+// }

@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+@font-face {
+  font-family: "ProductSans-Black";
+
+  src: url("./assets/fonts/ProductSans-Black.ttf");
+}
+
+@font-face {
+  font-family: "ProductSans-BlackItalic";
+  src: url("./assets/fonts/ProductSans-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: "ProductSans-Light";
+  src: url("./assets/fonts/ProductSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "ProductSans-Medium";
+
+  src: url("./assets/fonts/ProductSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "ProductSans-MediumItalic";
+  src: url("./assets/fonts/ProductSans-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "ProductSans-Regular";
+  src: url("./assets/fonts/ProductSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "ProductSans-Thin";
+  src: url("./assets/fonts/ProductSans-Thin.ttf");
+}
+
+@font-face {
+  font-family: "ProductSans-ThinItalic";
+  src: url("./assets/fonts/ProductSans-ThinItalic.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ProductSans-Regular;
+}
+
+:root {
+  --blue: #287bff;
+  --blue2: #2196f3;
+  --white: #ffffff;
+  --grey: #f5f5f5;
+  --black1: #222;
+}
+body {
+  min-height: 100vh;
+  overflow-x: hidden !important;
+}

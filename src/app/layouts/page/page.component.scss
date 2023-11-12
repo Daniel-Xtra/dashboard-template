@@ -1,0 +1,25 @@
+.container-fluid {
+  position: relative;
+  width: 100%;
+
+  .main {
+    position: absolute;
+    width: calc(100% - 250px);
+    left: 250px;
+    min-height: 100vh;
+    background-color: var(--white);
+    transition: 0.5s;
+    &.active {
+      width: calc(100% - 70px);
+      left: 70px;
+    }
+
+    .card-box {
+      position: relative;
+      width: -webkit-fill-available;
+      padding: 15px;
+      // display: grid;
+      // grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <div class="container-fluid my-2 mx-0">
+    <a class="navbar-brand" href="javascript:void(0)">
+      <i class="fa fa-bars toggle"></i>
+    </a>
+
+    <!-- <ul class="navbar-nav ms-auto" *ngIf="info?.is_email_verified === false">
+      <li>
+        <b>Not Verified</b>, click here to
+        <a href="javascript:void(0)" routerLink="/settings"
+          >verify your account <img src="assets/imgs/arrow-left.svg"
+        /></a>
+      </li>
+    </ul> -->
+    <h5 class="navbar-nav ms-auto">{{ getTitle() }}</h5>
+    <ul class="navbar-nav ms-auto media">
+      <img
+        alt=""
+        class="user-img-card img-fluid mx-2 mt-md-1"
+        src="assets/imgs/role-set.svg"
+      />
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e8e8e9;
+
+  &-brand {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--blue);
+  }
+  &-nav {
+    a {
+      text-decoration: none;
+      text-transform: capitalize;
+      color: var(--blue);
+      font-weight: 600;
+      font-size: 14px;
+    }
+    li {
+      font-size: 14px;
+      font-weight: 400;
+      color: #3d523d;
+    }
+  }
+}
+
+b {
+  font-weight: 600;
+  font-size: 14px;
+  color: #ed000c;
+}
+
+img {
+  margin-top: -2px;
+  background: var(--blue);
+}
+
+.user-img-card {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
